@@ -1,0 +1,2 @@
+hw1
+-DCATKIN_DEVEL_PREFIX=/home/abdullokh/catkin_ws/hw1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/abdullokh/catkin_ws/hw1_ws/install -G Unix Makefiles
