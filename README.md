@@ -3,20 +3,6 @@ Smart_Mobility_Service (lab-based)
 
 
 <br>
-<h2> Hw1. it is inside src file </h2>
-<br>
-<br>
-
-
-<img width="1280" alt="Screenshot 2023-03-26 at 11 44 16 PM" src="https://user-images.githubusercontent.com/90837231/227786026-4f8b3eb4-f233-4c77-bfbb-743a81b285f4.png">
-<img width="1280" alt="Screenshot 2023-03-26 at 11 44 28 PM" src="https://user-images.githubusercontent.com/90837231/227786030-9b5d4289-8c88-4939-9e5b-30845a8cd04c.png">
-<img width="1280" alt="Screenshot 2023-03-26 at 11 44 40 PM" src="https://user-images.githubusercontent.com/90837231/227786033-771173ca-6baa-473e-a1ea-d86c7e488726.png">
-<img width="1280" alt="Screenshot 2023-03-26 at 11 44 43 PM" src="https://user-images.githubusercontent.com/90837231/227786034-ef69c65e-d4a5-472d-a165-d4f7c8109e2c.png">
-<img width="1280" alt="Screenshot 2023-03-26 at 11 44 52 PM" src="https://user-images.githubusercontent.com/90837231/227786036-c2c30da8-aba8-4ae1-883c-f7280fb05fcf.png">
-<img width="1280" alt="Screenshot 2023-03-26 at 11 44 55 PM" src="https://user-images.githubusercontent.com/90837231/227786039-7e8cd240-1e4e-4d55-b54c-8087abb8b3cf.png">
-
-
-<br>
 <h2> Hw2. it is inside another branch named master_for_hw2 file </h2>
 <br>
 <br>
