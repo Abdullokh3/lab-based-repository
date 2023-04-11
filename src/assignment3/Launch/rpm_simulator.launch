@@ -1,0 +1,3 @@
+<launch>
+  <node name="rpm_publisher_node1" pkg="roslaunch_project1_py_pkg" type="rpm_pub" />
+</launch>
