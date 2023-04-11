@@ -18,7 +18,7 @@ First I had to create the projects and build the package using catkin_make compi
 <img width="1280" alt="Screenshot 2023-04-11 at 8 43 22 PM" src="https://user-images.githubusercontent.com/90837231/231176527-11a09d14-4d85-4ac6-a059-17042169fe0f.png">
 <img width="1280" alt="Screenshot 2023-04-11 at 10 00 01 PM" src="https://user-images.githubusercontent.com/90837231/231176534-3d998a47-7f5a-4223-a489-2d927eaa5759.png">.   
 
-*  Restart the roscore in the command line in new tab.      
+*  Restarting the roscore in the command line in new tab.      
              
              
 
