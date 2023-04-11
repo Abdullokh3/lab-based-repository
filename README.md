@@ -3,7 +3,7 @@ Smart_Mobility_Service (lab-based)
 
 
 <br>
-<h2> Hw2. it is inside another branch named master_for_hw2 file </h2>
+<h2> Hw3. it is inside another branch named master_hw3 file </h2>
 <br>
 <br>
 
