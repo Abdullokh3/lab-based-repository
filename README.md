@@ -31,7 +31,7 @@ First I had to create the projects and build the package using catkin_make compi
 <img width="716" alt="Screenshot 2023-04-11 at 10 01 20 PM" src="https://user-images.githubusercontent.com/90837231/231176546-a359acae-cd30-4ae9-a4bc-5077695bba8e.png">.   
 
 
-* Running and testing changing wheel_radius publisher and subrcribing nodes in the new tab.       
+* Running and testing changing publisher and subrcribing nodes in the new tab.       
  
 
 <img width="1280" alt="Screenshot 2023-04-11 at 10 01 34 PM" src="https://user-images.githubusercontent.com/90837231/231176575-8fa115d1-a70d-493e-970f-48e82cbff6b9.png">
