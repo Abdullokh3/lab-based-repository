@@ -13,11 +13,14 @@ In the homework_3, we had to perform the following tasks:
 * Upload the source codes and Github link.     
         
         
-* Creating the projects and building the package using catkin_make command     
+First I had to create the projects and build the package using catkin_make compiling command     
 
 <img width="1280" alt="Screenshot 2023-04-11 at 8 43 22 PM" src="https://user-images.githubusercontent.com/90837231/231176527-11a09d14-4d85-4ac6-a059-17042169fe0f.png">
-<img width="1280" alt="Screenshot 2023-04-11 at 10 00 01 PM" src="https://user-images.githubusercontent.com/90837231/231176534-3d998a47-7f5a-4223-a489-2d927eaa5759.png">
-*  Restart the roscore in the command line in new tab.     
+<img width="1280" alt="Screenshot 2023-04-11 at 10 00 01 PM" src="https://user-images.githubusercontent.com/90837231/231176534-3d998a47-7f5a-4223-a489-2d927eaa5759.png">.   
+
+*  Restart the roscore in the command line in new tab.      
+*            
+
 
 <img width="1280" alt="Screenshot 2023-04-11 at 10 00 08 PM" src="https://user-images.githubusercontent.com/90837231/231176541-34b6dfc1-80e5-4fc3-bee5-feaac79c6a9c.png">
 * Running the subscriber node in the new tab and implementing the roslaunch command.   
