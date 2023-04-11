@@ -23,8 +23,10 @@ First I had to create the projects and build the package using catkin_make compi
              
 
 
-<img width="1280" alt="Screenshot 2023-04-11 at 10 00 08 PM" src="https://user-images.githubusercontent.com/90837231/231176541-34b6dfc1-80e5-4fc3-bee5-feaac79c6a9c.png">
-* Running the subscriber node in the new tab and implementing the roslaunch command.   
+<img width="1280" alt="Screenshot 2023-04-11 at 10 00 08 PM" src="https://user-images.githubusercontent.com/90837231/231176541-34b6dfc1-80e5-4fc3-bee5-feaac79c6a9c.png">.     
+
+* Running the subscriber node in the new tab and implementing the roslaunch command.        
+
 
 <img width="716" alt="Screenshot 2023-04-11 at 10 01 20 PM" src="https://user-images.githubusercontent.com/90837231/231176546-a359acae-cd30-4ae9-a4bc-5077695bba8e.png">.   
 
