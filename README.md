@@ -10,60 +10,17 @@
 
 
 <img width="1280" alt="Screenshot 2023-04-20 at 5 06 43 PM" src="https://user-images.githubusercontent.com/90837231/233607271-18090d4d-e74b-4900-b92f-960de2e1b3c6.png">
+
+- ### Task #1
+- check the midterm services in the new tab
  
 <img width="1280" alt="Screenshot 2023-04-20 at 5 06 46 PM" src="https://user-images.githubusercontent.com/90837231/233607304-69bf359d-1975-436c-aaa3-24c8cc31905d.png">
+
+- Test the service in the new tab
+- 
 <img width="1280" alt="Screenshot 2023-04-20 at 5 06 49 PM" src="https://user-images.githubusercontent.com/90837231/233607332-b8ef0aab-a777-49b4-9591-05aba5ea0498.png">
 
 
-### Task #1
-- check the midterm services in the new tab
-```bash
-ros@ubuntu:~/catkin_ws/midterm$ source devel/setup.bash 
-ros@ubuntu:~/catkin_ws/midterm$ rossrv list
---- omitted ---
-map_msgs/ProjectedMapsInfo
-map_msgs/SaveMap
-map_msgs/SetMapProjections
-midterm/WeatherStation <-------------
-nav_msgs/GetMap
-nav_msgs/GetPlan
-nav_msgs/LoadMap
-nav_msgs/SetMap
---- omitted ---
-ros@ubuntu:~/catkin_ws/midterm$ rosrun midterm service_server
-[ INFO] [1650766939.649994468]: Weather Station Server Running...
-```
-- Test the service in the new tab
-```bash
-ros@ubuntu:~/catkin_ws/midterm$ source devel/setup.bash
-ros@ubuntu:~/catkin_ws/midterm$ rosservice list
-/rosout/get_loggers
-/rosout/set_logger_level
-/weather_station <-------------
-/weather_station_server_node/get_loggers
-/weather_station_server_node/set_logger_level
-ros@ubuntu:~/catkin_ws/midterm$ rosservice call /weather_station Seoul
-weather_type: "sunny"
-ros@ubuntu:~/catkin_ws/midterm$ rosservice call /weather_station Istanbul
-weather_type: "cloudy"
-ros@ubuntu:~/catkin_ws/midterm$ rosservice call /weather_station Sydney
-weather_type: "windy"
-ros@ubuntu:~/catkin_ws/midterm$ rosrun midterm service_client 
-Type 'exit' to quit
-Enter Location: Istanbul
-The weather is cloudy
-Enter Location: Seoul
-The weather is sunny
-Enter Location: Sydney
-The weather is windy
-Enter Location: Siberia
-The weather is stormy
-Enter Location: London
-The weather is rainy
-Enter Location: exit
-[ INFO] [1650767144.709564698]: Exiting Application...
-ros@ubuntu:~/catkin_ws/midterm$ 
-```
 ### Task #2
 - Raunch speed_check_simulator.launch
   - speed_limit is pre-defined (70 km/h) and can not be modified```
