@@ -1,98 +1,20 @@
-# sms-midterm
+# master_midterm_assignment
 
-- Creating the midterm 5
+- Creating the midterm
 ```bash
-ros@ubuntu:~/catkin_ws$ mkdir midterm
-ros@ubuntu:~/catkin_ws$ cd midterm/
-ros@ubuntu:~/catkin_ws/midterm$ mkdir src
-ros@ubuntu:~/catkin_ws/midterm$ cd src
-ros@ubuntu:~/catkin_ws/midterm/src$ catkin_create_pkg midterm roscpp
-Created file midterm/package.xml
-Created file midterm/CMakeLists.txt
-Created folder midterm/include/midterm
-Created folder midterm/src
-Successfully created files in /home/ros/catkin_ws/midterm/src/midterm. Please adjust the values in package.xml.
-ros@ubuntu:~/catkin_ws/midterm/src$mkdir launch
----------------------------------------------------------------
-UPDATE src FOLDER CPP CODES AND C_MAKE FILE
----------------------------------------------------------------
-ros@ubuntu:~/catkin_ws/midterm/src$ cd ..
-ros@ubuntu:~/catkin_ws/midterm$ catkin_make
-Base path: /home/ros/catkin_ws/midterm
-Source space: /home/ros/catkin_ws/midterm/src
-Build space: /home/ros/catkin_ws/midterm/build
-Devel space: /home/ros/catkin_ws/midterm/devel
-Install space: /home/ros/catkin_ws/midterm/install
-####
-#### Running command: "make cmake_check_build_system" in "/home/ros/catkin_ws/midterm/build"
-####
-####
-#### Running command: "make -j2 -l2" in "/home/ros/catkin_ws/midterm/build"
-####
-[  0%] Built target std_msgs_generate_messages_cpp
-[  0%] Built target sensor_msgs_generate_messages_cpp
-[  0%] Built target _midterm_generate_messages_check_deps_WeatherStation
-[ 13%] Built target speed_limit
-[ 26%] Built target speed_check
-[ 26%] Built target sensor_msgs_generate_messages_py
-[ 26%] Built target std_msgs_generate_messages_py
-[ 26%] Built target sensor_msgs_generate_messages_nodejs
-[ 26%] Built target std_msgs_generate_messages_nodejs
-[ 26%] Built target std_msgs_generate_messages_lisp
-[ 26%] Built target sensor_msgs_generate_messages_lisp
-[ 26%] Built target std_msgs_generate_messages_eus
-[ 26%] Built target sensor_msgs_generate_messages_eus
-[ 33%] Built target midterm_generate_messages_cpp
-[ 46%] Built target midterm_generate_messages_nodejs
-[ 53%] Built target midterm_generate_messages_py
-[ 66%] Built target midterm_generate_messages_eus
-[ 73%] Built target midterm_generate_messages_lisp
-[100%] Built target service_server
-[100%] Built target service_client
-[100%] Built target midterm_generate_messages
-ros@ubuntu:~/catkin_ws/midterm$ 
-
-```
-- Clone the repository 
-```bash
-ros@ubuntu:~/catkin_ws$ mkdir midterm
-ros@ubuntu:~/catkin_ws$ cd midterm
-ros@ubuntu:~/catkin_ws/midterm$ git clone "https://github.com/sh0hb0zbek/sms-midterm.git"
+<img width="1102" alt="Screenshot 2023-04-20 at 4 42 49 PM" src="https://user-images.githubusercontent.com/90837231/233607154-d63b2a3c-4ffd-40dd-bb79-51c70c1b7653.png">
+<img width="1280" alt="Screenshot 2023-04-20 at 5 06 37 PM" src="https://user-images.githubusercontent.com/90837231/233607180-cc0693b6-df7f-44c1-8042-52b6e632e170.png">
+<img width="1280" alt="Screenshot 2023-04-20 at 5 06 40 PM" src="https://user-images.githubusercontent.com/90837231/233607215-55a3e333-47f4-4fec-95d6-cf9df98e6402.png">
 ```
 - Start roscore
 ```bash
-ros@ubuntu:~/catkin_ws/midterm$ roscore
-... logging to /home/ros/.ros/log/c198ccb2-c374-11ec-b91c-974d1a0c2498/roslaunch-ubuntu-75350.log
-Checking log directory for disk usage. This may take a while.
-Press Ctrl-C to interrupt
-Done checking log file disk usage. Usage is <1GB.
 
-started roslaunch server http://ubuntu:33377/
-ros_comm version 1.15.14
+<img width="1280" alt="Screenshot 2023-04-20 at 5 06 43 PM" src="https://user-images.githubusercontent.com/90837231/233607271-18090d4d-e74b-4900-b92f-960de2e1b3c6.png">
+ 
+<img width="1280" alt="Screenshot 2023-04-20 at 5 06 46 PM" src="https://user-images.githubusercontent.com/90837231/233607304-69bf359d-1975-436c-aaa3-24c8cc31905d.png">
+<img width="1280" alt="Screenshot 2023-04-20 at 5 06 49 PM" src="https://user-images.githubusercontent.com/90837231/233607332-b8ef0aab-a777-49b4-9591-05aba5ea0498.png">
 
 
-SUMMARY
-========
-
-PARAMETERS
- * /rosdistro: noetic
- * /rosversion: 1.15.14
-
-NODES
-
-auto-starting new master
-process[master]: started with pid [75358]
-ROS_MASTER_URI=http://ubuntu:11311/
-
-setting /run_id to c198ccb2-c374-11ec-b91c-974d1a0c2498
-process[rosout-1]: started with pid [75368]
-started core service [/rosout]
-ros@ubuntu:~/catkin_ws/midterm$
-```
-- Compile the project
-```bash
-ros@ubuntu:~/catkin_ws/midterm$ catkin_make
-```
 ### Task #1
 - check the midterm services in the new tab
 ```bash
