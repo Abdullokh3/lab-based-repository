@@ -1,13 +1,13 @@
 # master_midterm_assignment
 
 - Creating the midterm
-```bash
+
 <img width="1102" alt="Screenshot 2023-04-20 at 4 42 49 PM" src="https://user-images.githubusercontent.com/90837231/233607154-d63b2a3c-4ffd-40dd-bb79-51c70c1b7653.png">
 <img width="1280" alt="Screenshot 2023-04-20 at 5 06 37 PM" src="https://user-images.githubusercontent.com/90837231/233607180-cc0693b6-df7f-44c1-8042-52b6e632e170.png">
 <img width="1280" alt="Screenshot 2023-04-20 at 5 06 40 PM" src="https://user-images.githubusercontent.com/90837231/233607215-55a3e333-47f4-4fec-95d6-cf9df98e6402.png">
-```
+
 - Start roscore
-```bash
+
 
 <img width="1280" alt="Screenshot 2023-04-20 at 5 06 43 PM" src="https://user-images.githubusercontent.com/90837231/233607271-18090d4d-e74b-4900-b92f-960de2e1b3c6.png">
  
